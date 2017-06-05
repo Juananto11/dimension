@@ -234,7 +234,7 @@ body{
 .info{
     background: transparent;
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px;
     width: 100%;
     margin: 5px 0;
     font-size: 1em;
@@ -247,7 +247,7 @@ body{
 .formulario textarea{
     background: transparent;
     border: 2px solid white;
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
     width: 100%;
     color: white;
