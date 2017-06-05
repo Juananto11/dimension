@@ -248,6 +248,7 @@ body{
     background: transparent;
     border: 2px solid white;
     padding: 10px;
+    margin: 5px 0;
     border-radius: 10px;
     width: 100%;
     color: white;
@@ -265,6 +266,10 @@ body{
     padding: 10px;
     text-transform: uppercase;
     margin: 1em auto;
+    font-weight: 700;
+}
+.enviar:hover{
+    box-shadow: 0 0 3px white;
 }
 
 @media (max-width: 768px) {
