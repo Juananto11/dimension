@@ -17,6 +17,7 @@
         if (modalSoy.checked){
             soy.style.top = 0 + 'vh';
             contenedor.style.visibility = 'hidden';
+            window.scrollTo(0,0);
             cerrarSoy.checked = false;
         }
     });
@@ -24,6 +25,7 @@
         if(cerrarSoy.checked){
             soy.style.top = -300 + 'vh';
             contenedor.style.visibility = 'visible';
+            window.scrollTo(0,200);
             modalSoy.checked = false;
         }
     });
@@ -31,6 +33,7 @@
         if (modalIntereses.checked){
             intereses.style.top = 0 + 'vh';
             contenedor.style.visibility = 'hidden';
+            window.scrollTo(0,0);
             cerrarIntereses.checked = false;
         }
     });
@@ -38,6 +41,7 @@
         if(cerrarIntereses.checked){
             intereses.style.top = -300 + 'vh';
             contenedor.style.visibility = 'visible';
+            window.scrollTo(0,200);
             modalIntereses.checked = false;
         }
     });
@@ -45,6 +49,7 @@
         if (modalTrabajos.checked){
             trabajos.style.top = 0 + 'vh';
             contenedor.style.visibility = 'hidden';
+            window.scrollTo(0,0);
             cerrarTrabajos.checked = false;
         }
     });
@@ -52,6 +57,7 @@
         if(cerrarTrabajos.checked){
             trabajos.style.top = -300 + 'vh';
             contenedor.style.visibility = 'visible';
+            window.scrollTo(0,200);
             modalTrabajos.checked = false;
         }
     });
@@ -59,6 +65,7 @@
         if (modalContacto.checked){
             contacto.style.top = 0 + 'vh';
             contenedor.style.visibility = 'hidden';
+            window.scrollTo(0,0);
             cerrarContacto.checked = false;
         }
     });
@@ -66,6 +73,7 @@
         if(cerrarContacto.checked){
             contacto.style.top = -400 + 'vh';
             contenedor.style.visibility = 'visible';
+            window.scrollTo(0,200);
             modalContacto.checked = false;
         }
     });
