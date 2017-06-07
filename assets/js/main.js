@@ -64,7 +64,7 @@
     });
     cerrarContacto.addEventListener('click', function(){
         if(cerrarContacto.checked){
-            contacto.style.top = -250 + 'vh';
+            contacto.style.top = -400 + 'vh';
             contenedor.style.visibility = 'visible';
             modalContacto.checked = false;
         }
