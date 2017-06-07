@@ -127,7 +127,7 @@ body{
     width: 100%;
     padding: 30px 0;
     position: absolute;
-    top: -300vh;
+    top: -400vh;
 }
 .modal{
     width: 640px;
@@ -141,7 +141,7 @@ body{
 }
 .modal h2{
     display: inline;
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid white;
     padding: .5em .3em;
 }
 .modal p{
@@ -241,8 +241,9 @@ body{
     border: 2px solid white;
     color: white;
 }
-.info:focus{
+.formulario *:focus{
     background: rgba(255,255,255,0.1);
+    outline: none;
 }
 .formulario textarea{
     background: transparent;
@@ -252,9 +253,6 @@ body{
     border-radius: 10px;
     width: 100%;
     color: white;
-}
-.formulario:focus{
-    background: rgba(255,255,255,0.1);
 }
 .enviar{
     display: block;

@@ -22,7 +22,7 @@
     });
     cerrarSoy.addEventListener('click', function(){
         if(cerrarSoy.checked){
-            soy.style.top = -250 + 'vh';
+            soy.style.top = -300 + 'vh';
             contenedor.style.visibility = 'visible';
             modalSoy.checked = false;
         }
@@ -36,7 +36,7 @@
     });
     cerrarIntereses.addEventListener('click', function(){
         if(cerrarIntereses.checked){
-            intereses.style.top = -250 + 'vh';
+            intereses.style.top = -300 + 'vh';
             contenedor.style.visibility = 'visible';
             modalIntereses.checked = false;
         }
@@ -50,7 +50,7 @@
     });
     cerrarTrabajos.addEventListener('click', function(){
         if(cerrarTrabajos.checked){
-            trabajos.style.top = -250 + 'vh';
+            trabajos.style.top = -300 + 'vh';
             contenedor.style.visibility = 'visible';
             modalTrabajos.checked = false;
         }
@@ -64,7 +64,7 @@
     });
     cerrarContacto.addEventListener('click', function(){
         if(cerrarContacto.checked){
-            contacto.style.top = -250 + 'vh';
+            contacto.style.top = -400 + 'vh';
             contenedor.style.visibility = 'visible';
             modalContacto.checked = false;
         }
